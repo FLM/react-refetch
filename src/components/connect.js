@@ -8,7 +8,7 @@ import PromiseState from '../PromiseState'
 import hoistStatics from 'hoist-non-react-statics'
 import invariant from 'invariant'
 import warning from 'warning'
-import omit from 'lodash/fp/omit'
+import omit from 'lodash.omit'
 
 const defaultMapPropsToRequestsToProps = () => ({})
 
